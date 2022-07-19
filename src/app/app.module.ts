@@ -7,7 +7,7 @@ import { SharedModule } from '@shared/shared.module.ts';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, SharedModule],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [AppComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

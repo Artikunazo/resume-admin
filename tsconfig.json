@@ -14,7 +14,9 @@
     "typeRoots": ["node_modules/@types"],
     "lib": ["es2018", "dom"],
     "paths": {
-      "@modules": []
+      "@modules/*": ["src/app/modules/*"],
+      "@shared/*": ["src/app/modules/shared/*"],
+      "@core/*": ["src/app/modules/core/*"]
     }
   },
   "angularCompilerOptions": {
